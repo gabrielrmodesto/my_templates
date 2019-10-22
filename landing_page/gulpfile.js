@@ -4,7 +4,7 @@ const notify = require('gulp-notify');
 //const minify = require('gulp-jsmin');
 const htmlmin = require('gulp-html-minifier2');
 const concat = require('gulp-concat');
-const imgmin = require('gulp-imagemin');
+const imagemin = require('gulp-imagemin');
 
 gulp.task('default', ['sass','htmlmin','imagemin','watch']);
 
@@ -28,7 +28,7 @@ gulp.task('htmlmin', function(){
 //task for minify images
 gulp.task('imagemin', function(){
     return gulp.src('src/assets/img/*.*')
-               .pipe(imgmin())
+               .pipe(imagemin())
                .on('error', notify.onError("Erro: <%= error.message %>"))
                .pipe(gulp.dest('dist/assets/img/'));
 });
