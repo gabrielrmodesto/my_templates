@@ -27,4 +27,4 @@ npm install --save-dev gulp
 
 ## Author
 
-* **Gabriel Modesto** - [Projects](https://github.com/gabrielrmodesto) 
+* **Gabriel Modesto** - [Projects](https://github.com/gabrielrmodesto) - [Facebook](https://pt-br.facebook.com/gabriel.rodriguesmodesto) - [Instagram](https://www.instagram.com/gabrielmodesto5/) - [Linkedin](https://br.linkedin.com/in/gabrielrmodesto)
