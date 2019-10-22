@@ -1,1 +1,1 @@
-*{font-family:Arial, Helvetica, sans-serif;margin:0;padding:0}a{text-decoration:none;color:inherit}header{width:100%;background-color:blue}header nav ul li{display:flex;justify-content:start}header nav ul li a{color:white}
+*{font-family:Arial, Helvetica, sans-serif;margin:0;padding:0}a{text-decoration:none;color:inherit}header{width:100%;background-color:blue}header nav ul li{display:flex;justify-content:space-around}header nav ul li a{color:white}
