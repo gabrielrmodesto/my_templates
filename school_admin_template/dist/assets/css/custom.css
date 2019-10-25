@@ -1,0 +1,8 @@
+#loginScreen{
+	background-image: url('../img/backgroundSchool.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#loginCard{
+	margin-top: 10%;
+}
