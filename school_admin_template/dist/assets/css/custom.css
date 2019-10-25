@@ -10,6 +10,13 @@
 	width: 50%;
 	margin-left: 25%;
 }
+#btnLogin{
+	background-color: #042954;
+	color: white;
+}
+#accountCreate{
+	margin-left: 33%;
+}
 @media (max-width: 545px){
 	.logo-main{
 		width: 100%;
@@ -20,5 +27,8 @@
 	}
 	#btnLogin{
 		margin-top: 20px;
+	}
+	#accountCreate{
+		margin-left: 21%;
 	}
 }
