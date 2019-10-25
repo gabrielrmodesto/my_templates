@@ -6,3 +6,19 @@
 #loginCard{
 	margin-top: 10%;
 }
+.logo-main{
+	width: 50%;
+	margin-left: 25%;
+}
+@media (max-width: 545px){
+	.logo-main{
+		width: 100%;
+		margin-left: 0;
+	}
+	#loginCard{
+		height: 630px;
+	}
+	#btnLogin{
+		margin-top: 20px;
+	}
+}
