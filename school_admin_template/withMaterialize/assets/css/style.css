@@ -13,12 +13,24 @@ main {
 }
 #btnLogin{
 	width: 70%;
+	background-color: #042954;
 }
 #logo-img{
 	width: 40%;
 }
+#card-login{
+	margin-top: 10%;
+	width: 50%;
+	margin-left: 20%;
+}
 @media (max-width: 545px){
 	#logo-img{
 		width: 80%;
+	}
+	#btnLogin{
+		width: 360%;
+	}
+	#card-login{
+		margin-top: 30%;
 	}
 }
