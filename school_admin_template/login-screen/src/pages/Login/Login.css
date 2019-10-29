@@ -19,10 +19,16 @@ body{
 #login-card{
     margin-top: 20%;
 }
-#signup, #createaccount{
+#signup{
     margin-top: 1em;
-    color: #fff;
+    color: #4d4d4d;
+}
+#signup > p{
     font-size: 1.2em;
+}
+#createaccount{
+    color: inherit;
+    font-weight: bold;
 }
 #loginBtn{
     font-size: 1.3em;

@@ -75,7 +75,7 @@ export default class Login extends Component {
                     </div>
                     <div className="row text-center">
                         <div className="col-12 form-group" id="signup">
-                            Don't have an account?<a href="#" id="createaccount"> Signup Now!</a>
+                            <p>Don't have an account?<a href="#" id="createaccount"> Signup Now!</a></p>
                         </div>
                     </div>
                 </div>
