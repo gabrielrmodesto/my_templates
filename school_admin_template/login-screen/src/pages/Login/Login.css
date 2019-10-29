@@ -1,0 +1,10 @@
+.login_page_background{
+    background: url(../../assets/img/backgroundSchool.jpg) no-repeat;
+    background-size: cover;
+}
+.logoSchool{
+    width: 100%;
+}
+#login-card{
+    margin-top: 10%;
+}
