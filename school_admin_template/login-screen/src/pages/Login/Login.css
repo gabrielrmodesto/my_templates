@@ -12,9 +12,20 @@ body{
     background: url(../../assets/img/backgroundSchool.jpg) no-repeat;
     background-size: cover;
 }
+
 .logoSchool{
     width: 100%;
 }
 #login-card{
     margin-top: 20%;
+}
+#signup, #createaccount{
+    margin-top: 1em;
+    color: #fff;
+    font-size: 1.2em;
+}
+#loginBtn{
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
