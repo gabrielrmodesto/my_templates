@@ -1,4 +1,14 @@
-.login_page_background{
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+html, body, #root{
+	min-height: 100%;
+}
+body{
     background: url(../../assets/img/backgroundSchool.jpg) no-repeat;
     background-size: cover;
 }
@@ -6,5 +16,5 @@
     width: 100%;
 }
 #login-card{
-    margin-top: 10%;
+    margin-top: 20%;
 }
