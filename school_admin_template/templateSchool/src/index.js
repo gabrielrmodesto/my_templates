@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Login from './pages/Login/Login';
-import Home from './pages/Home/index';
+import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+)
+, document.getElementById('root'));

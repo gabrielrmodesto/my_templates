@@ -54,7 +54,7 @@ export default class Login extends Component {
                                         </div>
                                         <div className="row justify-content-center text-center">
                                             <div className="col-12 col-lg-10 form-group">
-                                                <button className="btn btn-primary btn-block" id="loginBtn">Enter</button>
+                                                <button onClick='/home' className="btn btn-primary btn-block" id="loginBtn">Enter</button>
                                             </div>
                                         </div>
                                     </form>
@@ -66,7 +66,7 @@ export default class Login extends Component {
                                             </div>
                                         </div>
                                         <div className="col-6 form-group">
-                                            <a href="#" id="forgotpassword">Forgot Password?</a>
+                                            <a href="/home" id="forgotpassword">Forgot Password?</a>
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ export default class Login extends Component {
                     </div>
                     <div className="row text-center">
                         <div className="col-12 form-group" id="signup">
-                            <p>Don't have an account?<a href="#" id="createaccount"> Signup Now!</a></p>
+                            <p>Don't have an account?<a href="/" id="createaccount"> Signup Now!</a></p>
                         </div>
                     </div>
                 </div>
